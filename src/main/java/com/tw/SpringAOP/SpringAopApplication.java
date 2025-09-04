@@ -18,8 +18,6 @@ public class SpringAopApplication {
         return runner -> {
 
             demoTheBeforeAdvice(theAppDAO);
-
-
         };
     }
 
